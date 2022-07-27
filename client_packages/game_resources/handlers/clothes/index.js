@@ -2,13 +2,8 @@ const NativeUI = require(patch + 'nativeui');
 const Menu = NativeUI.Menu;
 const UIMenuItem = NativeUI.UIMenuItem;
 const UIMenuListItem = NativeUI.UIMenuListItem;
-const UIMenuCheckboxItem = NativeUI.UIMenuCheckboxItem;
-const UIMenuSliderItem = NativeUI.UIMenuSliderItem;
-const BadgeStyle = NativeUI.BadgeStyle;
 const Point = NativeUI.Point;
 const ItemsCollection = NativeUI.ItemsCollection;
-const Color = NativeUI.Color;
-const ListItem = NativeUI.ListItem;
 
 let player = mp.players.local;
 
@@ -417,7 +412,6 @@ mp.keys.bind(0x71, false, () => {
         menuRoupasMochilas.Visible) {
         todosMenus.forEach(function(element, index, array){element.Close()});
     } else {
-        
         menuRoupas.Open();
         mp.gui.chat.show(false);
         mp.gui.cursor.visible = false;

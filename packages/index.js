@@ -1,1 +1,2 @@
+require("./vspawner");
 require("./clothes");
