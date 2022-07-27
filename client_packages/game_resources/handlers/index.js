@@ -12,5 +12,3 @@ mp.events.add("render", () => {
     drawText('hp arm veh fixcar pos tpc setw metp goto setdim', [0.01, 0.10], 4, [255, 255, 255, 255], 0.35);
     drawText('gun dim banhd setcloth delveh clshape anim scanim', [0.01, 0.12], 4, [255, 255, 255, 255], 0.35);
 }); 
-
-
